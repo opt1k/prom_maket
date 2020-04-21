@@ -112,14 +112,14 @@ button:focus {
     position: relative;
 }
 
-.header__main {
+.header-main {
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 55px 0 0 0;
 }
 
-.header__logo__link {
+.header-main__logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,15 +129,15 @@ button:focus {
     margin: 0 220px 0 0;
 }
 
-.header__logo__svg {
+.header-main__svg {
     fill: currentColor;
 }
 
-.header__logo__link:hover {
+.header-main__logo:hover {
     color: #c7b299;
 }
 
-.header__logo__txt {
+.header-main__txt {
     display: block;
     margin-top: 11px;
     font-family: 'raleway', 'verdana', sans-serif;
@@ -148,13 +148,13 @@ button:focus {
     text-align: right;
 }
 
-.header__main__nav {
+.header-main__nav {
     display: flex;
     justify-content: center;
 }
 
 
-.header__main__nav__item {
+.header-main__nav-item {
     display: block;
     text-align: center;
     text-decoration: none;
@@ -169,11 +169,11 @@ button:focus {
 
 }
 
-.header__main__nav__item:hover {
+.header-main__nav-item:hover {
     color: #c7b299;
 }
 
-.header__main__btn__buy {
+.header-main__btn-buy {
     fill: #fff;
     height: 27px;
     width: 20px;
@@ -184,12 +184,12 @@ button:focus {
     margin: 10px 0 0 0;
 }
 
-.header__main__btn__buy:hover,
-.header__main__btn__search:hover {
+.header-main__btn-buy:hover,
+.header-main__btn-search:hover {
     fill: #c7b299;
 }
 
-.header__main__btn__search {
+.header-main__btn-search {
     fill: #fff;
     height: 27px;
     width: 20px;
@@ -210,23 +210,23 @@ button:focus {
 }
 */
 
-.header__slider__content {
+.header-slider__content {
     display: flex;
     justify-content: space-around;
 }
 
-.header__slider__linkleft {}
+.header-slider__link-left {}
 
-.header__slider__linkright {}
+.header-slider__link-right {}
 
-.header__slider {
+.header-slider {
     max-width: 590px;
     margin: 285px 0 0 0;
     text-align: center;
 
 }
 
-.header__slider__title {
+.header-slider__title {
     font-family: 'raleway', 'verdana', sans-serif;
     font-size: 36px;
     line-height: 1.2;
@@ -234,7 +234,7 @@ button:focus {
     color: #ffffff;
 }
 
-.header__slider__subtitle {
+.header-slider__subtitle {
     font-family: 'raleway', 'verdana', sans-serif;
     font-size: 52px;
     line-height: 1.2;
@@ -242,7 +242,7 @@ button:focus {
     color: #ffffff;
 }
 
-.header__slider__text {
+.header-slider__text {
     font-family: 'montserrat', 'verdana', sans-serif;
     font-size: 16px;
     line-height: 24px;
@@ -253,7 +253,7 @@ button:focus {
 }
 
 
-.header__slider__button {
+.header-slider__button {
     margin-top: 52px;
     width: 170px;
     height: 53px;
@@ -268,12 +268,12 @@ button:focus {
     position: relative;
 }
 
-.header__slider__button:hover {
+.header-slider__button:hover {
     color: #998675;
     background-color: #ffffff;
 }
 
-.pagination {
+.header-pagination {
     width: 87px;
     display: flex;
     justify-content: space-between;
@@ -283,7 +283,7 @@ button:focus {
 
 }
 
-.pagination__link {
+.header-pagination__link {
     display: block;
     width: 11px;
     height: 11px;
@@ -293,7 +293,7 @@ button:focus {
     border: 2.0px solid transparent;
 }
 
-.pagination__link:hover {
+.header-pagination__link:hover {
     width: 11px;
     height: 11px;
     border: 2.0px solid #d3c1ad;
@@ -311,13 +311,13 @@ button:focus {
     box-sizing: border-box;
 }
 
-.about__container {
+.about-container {
     display: flex;
     justify-content: center;
     min-height: 373px;
 }
 
-.about__container__section {
+.about-container__section {
     display: flex;
     width: 300px;
     flex-wrap: wrap;
@@ -328,7 +328,7 @@ button:focus {
     margin: 0 30px 0 30px;
 }
 
-.about__container__section:after {
+.about-container__section:after {
     content: "";
     display: block;
     width: 70px;
@@ -336,26 +336,26 @@ button:focus {
     background-color: #f1eee9;
 }
 
-.about__container__section:hover:after {
+.about-container__section:hover:after {
     background-color: #c7b299;
 }
 
-.about__container__section:hover .about__container__section__svg {
+.about-container__section:hover .about-container__svg {
     fill: #c7b299;
 }
 
-.about__container__section:hover .about__container__section__title {
+.about-container__section:hover .about-container__title {
     color: #c7b299;
 }
 
-.about__container__section__svg {
+.about-container__svg {
     display: block;
     width: 49px;
     height: 49px;
     fill: #555555;
 }
 
-.about__container__section__title {
+.about-container__title {
     display: block;
     width: 100%;
     font-family: 'raleway', 'verdana', sans-serif;
@@ -367,7 +367,7 @@ button:focus {
 
 }
 
-.about__container__section__text {
+.about-container__text {
     display: block;
     width: 100%;
     word-break: break-all;
@@ -379,15 +379,15 @@ button:focus {
     text-align: center;
 }
 
-.about__realization {
+.about-realization {
     background-color: #fbfaf8;
     padding: 82px 0 0 0;
     min-height: 638px;
 }
 
-.about__realization__section {}
+.about-realization__section {}
 
-.about__realization__section__title {
+.about-realization__title {
     font-family: 'raleway', sans-serif;
     font-size: 30px;
     line-height: 1.2;
@@ -398,7 +398,7 @@ button:focus {
     margin: 0 0 24px 0;
 }
 
-.about__realization__section__text {
+.about-realization__text {
     font-family: 'montserrat', 'verdana', sans-serif;
     font-size: 16px;
     line-height: 28px;
@@ -410,7 +410,7 @@ button:focus {
     margin: 0 0 40px 583px;
 }
 
-.about__realization__wrp {
+.about-realization__wrp {
     width: 100%;
     background-color: #fbfaf8;
     display: flex;
@@ -418,28 +418,28 @@ button:focus {
     position: relative;
 }
 
-.about__realization__wrp__img:first-child {
+.about-realization__img:first-child {
     position: absolute;
     top: 0;
     left: 575px;
     z-index: 3;
 }
 
-.about__realization__wrp__img:nth-child(2) {
+.about-realization__img:nth-child(2) {
     position: absolute;
     top: 82px;
     left: 346px;
     z-index: 2;
 }
 
-.about__realization__wrp__img:nth-child(3) {
+.about-realization__img:nth-child(3) {
     position: absolute;
     top: 82px;
     left: 806px;
     z-index: 1;
 }
 
-.about__footer {
+.about-footer {
     width: 100%;
     background-color: #f4f5f8;
     background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
@@ -448,11 +448,11 @@ button:focus {
     padding: 48px 0 0 0;
 }
 
-.about__footer_content {
+.about-footer__content {
     max-width: 550px;
 }
 
-.about__footer__title {
+.about-footer__title {
     /* Text styles for "Waxom" */
     font-family: 'raleway', 'verdana', sans-serif;
     font-size: 28px;
@@ -461,7 +461,7 @@ button:focus {
     color: #c7b299;
 }
 
-.about__footer__subtitle {
+.about-footer__subtitle {
     font-family: 'raleway', 'verdana', sans-serif;
     font-size: 28px;
     line-height: 1.2;
@@ -469,7 +469,7 @@ button:focus {
     color: #ffffff;
 }
 
-.about__footer__text {
+.about-footer__text {
     font-family: 'montserrat', 'verdana', sans-serif;
     font-size: 18px;
     line-height: 1.2;
@@ -477,7 +477,7 @@ button:focus {
     color: #615855;
 }
 
-.about__footer__btn {
+.about-footer__btn {
     display: block;
     width: 170px;
     height: 50px;
@@ -491,7 +491,7 @@ button:focus {
     color: #ffffff;
 }
 
-.about__footer__btn:hover {
+.about-footer__btn:hover {
     color: #998675;
     background-color: #ffffff;
 }
@@ -536,7 +536,7 @@ button:focus {
     margin: 0 20px 40px 0;
 }
 
-.projects__link__btn {
+.projects__link-btn {
     text-align: center;
     min-width: 70px;
     display: block;
@@ -554,7 +554,7 @@ button:focus {
     margin: 0 10px 0 0;
 }
 
-.projects__link__btn:hover {
+.projects__link-btn:hover {
     font-family: 'montserrat', 'verdana', sans-serif;
     font-size: 14px;
     line-height: 21px;
@@ -567,62 +567,62 @@ button:focus {
     box-sizing: border-box;
 }
 
-.projects__content {
+.projects-content {
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.projects__content__item {
+.projects-content__item {
     max-width: 370px;
     margin: 15px;
     position: relative;
 }
 
-.projects__content__item:hover .projects__content__item__subtitle {
+.projects-content__item:hover .projects-content__subtitle {
     color: #c7b299;
 }
 
-.projects__content__item:hover .projects__content__item__title {
+.projects-content__item:hover .projects-ontent__title {
     color: #ffffff;
 }
 
-.projects__content__item:hover .projects__content__item__btn__link {
+.projects-content__item:hover .projects-content__link {
     display: block;
     fill: #fff;
 }
 
-.projects__content__item:hover .projects__content__item__btn__search {
+.projects-content__item:hover .projects-content__search {
     display: block;
     fill: #fff;
 }
 
-.projects__content__item:hover .projects__content__item__btn__link:hover {
+.projects-content__item:hover .projects-content__link:hover {
     filter: brightness(70%)
 }
 
-.projects__content__item:hover .projects__content__item__btn__search:hover {
+.projects-content__item:hover .projects-content__search:hover {
     filter: brightness(50%)
 }
 
-.projects__content__item:hover .projects__content__item__img {
+.projects-content__item:hover .projects-content__img {
     filter: brightness(20%);
 }
 
-.projects__content__item:hover .projects__content__item__wrp {
+.projects-content__item:hover .projects-content___wrp {
     background-color: #362f2d;
 }
 
-.projects__content__item:hover .projects__content__item__wrp:before {
+.projects-content__item:hover .projects-content__wrp:before {
     border-bottom: 10px solid #362f2d;
 }
 
-.projects__content__item__img {
+.projects-content__img {
     display: block;
 }
 
-.projects__content__item__wrp {
+.projects-content__wrp {
     display: block;
     width: 100%;
     position: relative;
@@ -633,7 +633,7 @@ button:focus {
     padding: 30px 0 27px 28px;
 }
 
-.projects__content__item__wrp:before {
+.projects-content__wrp:before {
     content: "";
     position: absolute;
     top: -30px;
@@ -645,7 +645,7 @@ button:focus {
     box-sizing: border-box;
 }
 
-.projects__content__item__title {
+.projects-content__title {
     display: block;
     font-family: 'raleway', 'verdana', sans-serif;
     font-size: 20px;
@@ -655,7 +655,7 @@ button:focus {
     margin: 0 0 10px 0;
 }
 
-.projects__content__item__subtitle {
+.projects-content__subtitle {
     display: block;
     font-family: 'montserrat', 'verdana', sans-serif;
     font-size: 14px;
@@ -664,8 +664,8 @@ button:focus {
     color: #d1d1d1;
 }
 
-.projects__content__item__btn__link,
-.projects__content__item__btn__search {
+.projects-content__link,
+.projects-content__search {
     display: none;
     -webkit-background-size: cover;
     background-size: cover;
@@ -677,7 +677,7 @@ button:focus {
     top: 45%
 }
 
-.projects__content__item__btn__link {
+.projects-content__link {
     background-image: url('../img/link_1.svg');
     width: 26px;
     height: 26px;
@@ -686,7 +686,7 @@ button:focus {
 
 }
 
-.projects__content__item__btn__search {
+.projects-content__search {
     background-image: url('../img/search_1.svg');
     width: 26px;
     height: 26px;
@@ -712,17 +712,17 @@ button:focus {
     justify-content: center;
 }
 
-.video__box__btn {
+.video__btn {
     border: none;
     background-color: transparent;
     display: block;
 }
 
-.video__box__btn__logo {
+.video__logo {
     fill: #fff;
 }
 
-.video__box__title {
+.video__title {
     display: block;
     width: 100%;
     font-family: 'Raleway', sans-serif;
@@ -733,7 +733,7 @@ button:focus {
     margin: 45px 0 0 0;
 }
 
-.video__box__text {
+.video__text {
     display: block;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -743,7 +743,7 @@ button:focus {
     color: #ffffff;
 }
 
-.video__container__media {}
+.video__media {}
 
 /*секция с платформой на смартфон*/
 
@@ -765,7 +765,7 @@ button:focus {
 }
 
 
-.platform__desc__title {
+.platform__title {
     font-family: 'Raleway', 'verdana', sans-serif;
     font-size: 30px;
     line-height: 1.2;
@@ -773,7 +773,7 @@ button:focus {
     color: #555555;
 }
 
-.platform__desc__text {
+.platform__text {
     font-family: 'Montserrat', 'verdana', sans-serif;
     font-size: 16px;
     line-height: 28px;
@@ -781,12 +781,12 @@ button:focus {
     color: #8c8c8c;
 }
 
-.platform__desc__list {
+.platform__list {
     list-style-type: none;
 
 }
 
-.platform__desc__list__item {
+.platform__list-item {
     font-family: 'Montserrat', 'verdana', sans-serif;
     font-size: 16px;
     line-height: 32px;
@@ -829,14 +829,14 @@ button:focus {
     display: block;
 }
 
-.stats__block__img {
+.stats__img {
     display: block;
     fill: #fff;
     background-color: transparent;
     fill: #c7b299;
 }
 
-.stats__block__count {
+.stats__count {
     display: block;
     width: 100%;
     font-family: 'Montserrat', 'verdana', sans-serif;
@@ -848,7 +848,7 @@ button:focus {
 
 }
 
-.stats__block__title {
+.stats__title {
     display: block;
     width: 100%;
     font-family: 'Montserrat', 'verdana', sans-serif;
@@ -858,4 +858,79 @@ button:focus {
     text-transform: uppercase;
     color: #c7b299;
     margin: 0 0 30px 0;
+}
+
+
+/*  секция recent */
+
+.recent {
+    width: 100%;
+
+}
+
+.recent__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recent__header {}
+
+.recent__title {
+    width: 100%;
+    display: block;
+    font-family: 'Raleway', 'verdana', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    text-align: center;
+}
+
+.recent__text {
+    display: block;
+    text-align: center;
+    max-width: 758px;
+    font-family: 'Montserrat', 'verdana', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.recent__figure-list {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.figure-recent {}
+
+.figure-recent__img {}
+
+.figure-recent__caption {}
+
+.figure-recent__title {
+    font-family: 'Raleway', 'verdana', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #555555;
+}
+
+.figure-recent__text {
+    font-family: 'Montserrat', 'verdana', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.figure-recent__link {
+    font-family: 'Montserrat', 'verdana', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #c7b299;
+    text-decoration: none;
 }
